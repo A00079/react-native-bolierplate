@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "onecodestater",
+    "slug": "onecodestater",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "extra": {
+      "firebase": {
+        "apiKey": "AIzaSyCR9PoD6mP7T4vqZOEmD4BwqfVBca0LZ1c",
+        "authDomain": "expophoneauth-82447.firebaseapp.com",
+        "projectId": "expophoneauth-82447",
+        "storageBucket": "expophoneauth-82447.appspot.com",
+        "messagingSenderId": "81875919819",
+        "appId": "1:81875919819:web:9eaf186a717080eab04c4e"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
